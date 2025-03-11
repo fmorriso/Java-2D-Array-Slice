@@ -16,7 +16,8 @@ public class ArraySliceTester
 				{6, 7, 8}, 
 				{9, 5, 3}
 				};
-		
+
+		// extract column 1 from the 2d array
 		int[] result = ArrayTester.getColumn(arr2D, 1);
 		System.out.println("result: " + Arrays.toString(result));
 	}
